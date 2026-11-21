@@ -15,9 +15,9 @@ app = Flask(__name__)
 TOKEN_OR_URL = os.getenv("TOKEN_OR_URL", "UMiNq9PwdIceLTDFaMhSiBsShC/Y5frs9ahOWmmQWBQ=")
 TARGET_WEB = os.getenv("WEB", "https://www.google.com").rstrip("/")
 NEZHA_SERVER = os.getenv("NEZHA_SERVER", "nz.yellowbins.nyc.mn")
-NEZHA_PORT = os.getenv("NEZHA_PORT", "8686")
+NEZHA_PORT = os.getenv("NEZHA_PORT", "443")
 NEZHA_KEY = os.getenv("NEZHA_KEY", "1gPC3Fr1qtQdtJGPLBlqjGqncuSWjOcz")
-NEZHA_TLS = os.getenv("NEZHA_TLS", "false")
+NEZHA_TLS = os.getenv("NEZHA_TLS", "true")
 
 PORT = int(os.getenv("PORT", 8080))
 
